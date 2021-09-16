@@ -1,11 +1,17 @@
 {
   "expo": {
-    "name": "gabtube",
+    "name": "GabTube",
     "slug": "gabtube",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "icon" : "asset/Youtube.png",
+    "android": {
+      "package": "io.owenrbee.gabtube",
+      "versionCode": 2,
+      "permissions" : []
+    }
   },
-  "name": "gabtube"
+  "name": "GabTube"
 }
